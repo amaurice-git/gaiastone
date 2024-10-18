@@ -73,7 +73,7 @@
 
         // GLTFLoader로 3D 모델 로드
         const loader = new THREE.GLTFLoader();
-        loader.load('https://tdo.kr/pbs/U-table.glb', function (gltf) {
+        loader.load('./U-table.glb', function (gltf) {
             model = gltf.scene;
             scene.add(model);
 
